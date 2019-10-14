@@ -1,0 +1,7 @@
+1.
+    定义类 使用__init__来进行初始化操作
+    使用__str__来控制print此类的字符串
+    e.g:
+    def __str__(self):
+        return '(%s, %s)' % (str(self.x), str(self.y))
+2.
